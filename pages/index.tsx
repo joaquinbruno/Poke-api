@@ -21,12 +21,7 @@ export const HomePage:NextPage<Props> = ({pokemons}) => {
     <Layout title='Listado de Pokemon'>
 
       
-      <Image
-        src='/img/banner.png'
-        alt='banner'
-        width={200}
-        height={150}
-      />
+      
       
       <Grid.Container gap={2} justify='flex-start'>
         {
